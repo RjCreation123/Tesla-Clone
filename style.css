@@ -1,0 +1,192 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  width: auto;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.logo {
+  width: 350px;
+  margin: 20px;
+  margin: 15px;
+  padding-left: 20px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 200;
+
+}
+
+.content ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  gap: 30px;
+  margin: 15px auto;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+  gap: 15px;
+}
+
+.carousel-item-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.large-heading{
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.large-paragraph{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.order-now{
+  height: 40px;
+  width: 200px;
+  background-color: #3C66D9;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: 500;
+}
+
+.learn-more{
+  height: 40px;
+  width: 200px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: 500;
+}
+
+.swiper-wrapper {
+  padding: 50px;
+}
+
+.swiper-slid,
+img {
+  height: 50%;
+  width: 50%;
+}
+
+.swiper-slid,
+.upper {
+  position: absolute;
+  top: 0%;
+  color: #fff;
+  margin: 20px;
+}
+
+.swiper-slid,
+.lower {
+  position: absolute;
+  bottom: 0%;
+  color: #fff;
+  margin: 20px;
+}
+
+.advertisement,
+.advertisement-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.advertisement {
+  max-height: 200px;
+  gap: 50px;
+  margin: 20px auto;
+}
+
+.advertisement-div-left,
+.advertisement-div-right {
+  background-color: #f4f4f4;
+}
+
+.advertisement-div-right, img{
+  margin: 0 0;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1410px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.findyourcharge{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 93px;
+}
+
+.findyourchargeright{
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+footer{
+  margin: 150px;
+  margin-bottom: 0;
+  font-size: small;
+  color: #7d7979;
+}
+
+.footer-ul, ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  gap: 20px;
+  margin: 60px;
+  font-weight: bold;
+  color: #7d7979;
+}
+
+.bottom-nav{
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+}
+
+.bottom-nav-button{
+  margin: 10px auto;
+  border: none;
+  font-weight: 500;
+}
